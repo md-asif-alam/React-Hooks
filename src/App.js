@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import RulesHooks from "./component/rulesHooks";
+import UseStateArray from "./component/UseStateArray";
+// import RulesHooks from "./component/RulesHooks";
 
 const App = () => {
   // const [myName, setMyName] = useState("Thapa Technical");
@@ -20,7 +21,8 @@ const App = () => {
       <button className="btn" onClick={updateName}>
         Click Here
       </button> */}
-      <RulesHooks />
+      {/* <RulesHooks /> */}
+      <UseStateArray />
     </>
   );
 };
