@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import UseStateArray from "./component/UseStateArray";
 // import RulesHooks from "./component/RulesHooks";
+import UseStateObject from "./component/UseStateObject";
 
 const App = () => {
   // const [myName, setMyName] = useState("Thapa Technical");
@@ -22,7 +23,8 @@ const App = () => {
         Click Here
       </button> */}
       {/* <RulesHooks /> */}
-      <UseStateArray />
+      {/* <UseStateArray /> */}
+      <UseStateObject />
     </>
   );
 };
