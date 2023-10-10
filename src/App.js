@@ -23,8 +23,8 @@ const App = () => {
         Click Here
       </button> */}
       {/* <RulesHooks /> */}
-      {/* <UseStateArray /> */}
-      <UseStateObject />
+      <UseStateArray />
+      {/* <UseStateObject /> */}
     </>
   );
 };

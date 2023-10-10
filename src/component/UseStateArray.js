@@ -19,12 +19,23 @@ const UseStateArray = () => {
   const clearArray = () => {
     setMyArray([]);
   };
+
+  const removeElem = (id) => {
+    // alert(id);
+    const myNewArray = myArray.filter((curEle) => {
+      return curEle.id != id;
+    });
+    setMyArray(myNewArray);
+  };
   return (
     <>
       {myArray.map((curEle) => {
         return (
           <h1 key={curEle.id}>
             Name: {curEle.myName} & age :{curEle.myAge}
+            <button className="btnInner" onClick={() => removeElem(curEle.id)}>
+              remove
+            </button>
           </h1>
         );
       })}
